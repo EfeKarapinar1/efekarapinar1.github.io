@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center center;
+    font-family: 'Poppins',sans-serif;
+}
+.cards{
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  padding: 200px;
+}
+.card{
+  display: inline-block;
+  vertical-align: middle;
+  height: 360px;
+  width: 300px;
+  background-color: rgba(255,255,255,0.06);
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-family: 'Poppins',sans-serif;
+  color: #fcfcfc;
+}
+h4{
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+}
+h6{
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+button{
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px 75px;
+    left: 30px;
+    bottom: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+  padding: 25px 80px;
+  left: 25px;
+  bottom: 30;
+  color: #7df6ff;
+  box-shadow: 0 0 5px #6e6bff,
+              0 0 15px #6e6bff,
+              0 0 25px #6e6bff;
+}
+.card img{
+    width: 40%;
+    margin-left: 90px;
+}
+
+padding: 20px 75px;
+float: left;
+font-display: auto;
+background: gray;
+margin: 15px;
